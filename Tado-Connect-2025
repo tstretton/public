@@ -448,8 +448,8 @@ def initialize() {
     getInititialDeviceInfo()
 	
 	// Schedule it to run every 5 minutes
-	runEvery1Minute("poll")
-    runEvery1Minute("userPoll")
+	runEvery5Minutes("poll")
+    runEvery5Minutes("userPoll")
 }
 
 def getInititialDeviceInfo(){
